@@ -9,6 +9,7 @@
 }
 .image-wrap{
   position: relative;
+  display: inline-block;
 }
 .absolute-wrapper{
   position: absolute;
