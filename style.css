@@ -1,0 +1,66 @@
+.image-wrap img{
+  max-width: 1356px;
+  width: 100%;
+}
+.absolute-wrapper svg{
+  max-width: 1356px;
+  width: 100%;
+  height: auto;
+}
+.image-wrap{
+  position: relative;
+}
+.absolute-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.absolute-wrapper path{
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.absolute-wrapper path:hover{
+  opacity: 1;
+}
+.members-box{
+  background: #fff;
+  padding: 25px 100px 35px 25px;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.members-box.active{
+  opacity: 1;
+}
+.member1-box{
+  bottom: 20%;
+  left: 20%;
+}
+.members-box h3{
+  margin: 0 !important;
+}
+.member2-box{
+  top: 25%;
+  left: 10%;
+}
+.member3-box{
+  top: 45%;
+  left: 20%;
+}
+.member4-box{
+  top: 23%;
+  left: 48%;
+}
+.member5-box{
+  top: 16%;
+  right: 15%;
+}
+.member6-box{
+  bottom: 16%;
+  right: 20%;
+}
+.member7-box{
+  bottom: 40%;
+  right: 5%;
+}
