@@ -11,4 +11,14 @@ jQuery(function($){
    $('.absolute-wrapper .path-class-all').on( "mouseout", function(){
      $('.members-box').removeClass('active');
    });
+  $(document).ready(function(){
+      $('.members-box').hover(
+        function(){
+          $(this).addClass('active');
+        },
+        function(){
+          $(this).removeClass('active');
+        }
+      );
+    });
 });
