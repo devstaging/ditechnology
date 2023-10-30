@@ -29,9 +29,11 @@
   position: absolute;
   opacity: 0;
   transition: all 0.3s ease;
+  pointer-events: none;
 }
 .members-box.active{
   opacity: 1;
+  pointer-events: auto;
 }
 .member1-box{
   bottom: 20%;
@@ -63,4 +65,12 @@
 .member7-box{
   bottom: 40%;
   right: 5%;
+}
+@media (max-width: 1024px){
+ .members-box{
+   padding: 20px 50px 20px 20px !important;
+}
+  .members-box h3{
+    font-size: 16px;
+  }
 }
