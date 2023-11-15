@@ -25,9 +25,12 @@
 .absolute-wrapper path:hover{
   opacity: 1;
 }
+.members-box a{
+  display: flex;
+}
 .members-box{
   background: #fff;
-  padding: 25px 60px 35px 25px;
+  padding: 25px 60px 25px 25px;
   position: absolute;
   opacity: 0;
   transition: all 0.3s ease;
@@ -43,6 +46,8 @@
 }
 .members-box h3{
   margin: 0 !important;
+  margin-top: 10px !important;
+  font-family: "Roboto, Sans-serif"
 }
 .member2-box{
   top: 12%;
