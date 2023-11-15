@@ -27,7 +27,7 @@
 }
 .members-box{
   background: #fff;
-  padding: 25px 100px 35px 25px;
+  padding: 25px 60px 35px 25px;
   position: absolute;
   opacity: 0;
   transition: all 0.3s ease;
@@ -45,7 +45,7 @@
   margin: 0 !important;
 }
 .member2-box{
-  top: 25%;
+  top: 12%;
   left: 10%;
 }
 .member3-box{
@@ -53,11 +53,11 @@
   left: 20%;
 }
 .member4-box{
-  top: 23%;
-  left: 48%;
+  top: 18%;
+  left: 53%;
 }
 .member5-box{
-  top: 16%;
+  top: 8%;
   right: 15%;
 }
 .member6-box{
